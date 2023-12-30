@@ -3,3 +3,11 @@
 
 string[] arr1 = new string[5] {"yandex","ru", "hello", "world", "666" };
 string[] arr2 = new string[arr1.Length];
+
+for (int i = 0; i < 5; i++)
+{
+    if (arr1[i].Length <= 3)
+    {
+        arr2[i] = arr1[i];
+    }
+}
